@@ -1,5 +1,38 @@
+/* Author: Ilya Skurikhin
+ * 
+ * This is the main stylesheet for skurikhin.ch
+ */
+
+/* The global box */
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* the html body */
+
 body {
   margin: 60px auto;
+  background-color: #222;
+  color: #FFF;
+  width: 70%;
+  font-family: "Helvetica", "Sans-Serif";
+}
+
+.main {
+  position: relative;
+  padding-bottom: 6rem;
+  max-width: 650px;
+}
+
+footer {
   width: 70%;
 }
 
@@ -7,7 +40,7 @@ nav ul, footer ul {
   font-family:'Helvetica', 'Arial', 'Sans-Serif';
   padding: 0px;
   list-style: none;
-  font-weight bold;
+  font-weight: bold;
 }
 
 nav ul li, footer ul li {
@@ -16,7 +49,13 @@ nav ul li, footer ul li {
 }
 
 a {
-  /* things will be put here */
+  text-decoration: none;
+  color: #FFF;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #FFF;
 }
 
 h1 {
@@ -30,8 +69,15 @@ p {
 }
 
 footer {
-  border-top: 1px solid #FFF;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  border: none;
+  background-color: #444;
   font-size: 0.8em;
+  text-align: center;
 }
 
 ul.posts {
