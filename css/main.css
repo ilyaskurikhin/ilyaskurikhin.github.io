@@ -19,21 +19,19 @@ html {
 /* the html body */
 
 body {
-  margin: 60px auto;
+  margin: auto;
   background-color: #222;
   color: #FFF;
-  width: 70%;
+  width: 100%;
   font-family: "Helvetica", "Sans-Serif";
 }
 
 .main {
+  width: 70%;
+  margin: auto;
   position: relative;
   padding-bottom: 6rem;
   max-width: 650px;
-}
-
-footer {
-  width: 70%;
 }
 
 nav ul, footer ul {
