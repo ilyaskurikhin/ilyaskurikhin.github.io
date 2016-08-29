@@ -46,12 +46,12 @@ nav ul li, footer ul li {
   margin-right: 20px;
 }
 
-a {
+nav a, footer a {
   text-decoration: none;
   color: #FFF;
 }
 
-a:hover {
+nav a:hover, footer a:hover {
   text-decoration: underline;
   color: #FFF;
 }
@@ -62,8 +62,8 @@ h1 {
 }
 
 p {
-  font-size: 1.5em;
-  line-height: 1.4em;
+  font-size: 1em;
+  line-height: 1em;
 }
 
 footer {
@@ -86,3 +86,5 @@ ul.posts {
 ul.posts li {
   list-style: none;
 }
+
+
