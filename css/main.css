@@ -60,6 +60,13 @@ nav a, footer a {
   color: #FFF;
 }
 
+nav a {
+  padding-top: 10px;
+  padding-bottom: 2px;
+  padding-left: 4px;
+  padding-right: 20px;
+}
+
 nav a:hover, footer a:hover {
   text-decoration: underline;
   color: #FFF;
